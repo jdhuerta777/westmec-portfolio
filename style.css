@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+    background-color: #F5F5F4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #DD6E42;
+    list-style-type: none;
+    margin-top: -8px;
+}
+
+.navitem {
+    float: left;
+}
+
+.navitem a {
+    display: block;
+    color:rgb(32, 32, 30);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    top: 355px;
+}
+
+header {
+    margin: 0;
+    padding: 15px;
+}
+
+.headName {
+    color:#DD6E42;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: rgb(32, 32, 30) 20px 16px;
+    font-size: 275px;
+    margin-top: -30px;
+}
+
+.headLine {
+    color: rgb(32, 32, 30);
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: #DD6E42 1.5px 2px;
+    font-size: 50px;
+    margin-top: -235px;
+}
+
+#headHR1 {
+    border: 25px;
+    border-width: 75px;
+    border-top: black solid 4px;
+    margin-top: -45px;
+    margin-right: 700px;
+}
+
+#headHR2 {
+    border: 25px;
+    border-width: 75px;
+    border-top: black solid 4px;
+    margin-top: -45px;
+    margin-right: 930px;
+}
+
+#headHR3 {
+    border: 25px;
+    border-width: 75px;
+    border-top: black solid 4px;
+    margin-top: -45px;
+    margin-right: 765px;
+}
+
+#headHR4 {
+    border: 25px;
+    border-width: 75px;
+    border-top: black solid 4px;
+    margin-top: -45px;
+    margin-right: 920px;
+}
+
+#index_sec1 {
+    margin: 15px;
+}
+
+#philosophy_container {
+    padding: 25px;
+}
+
+#philosophy_statement {
+    color:#DD6E42;
+    font-family: 'Bebas Neue', cursive;
+    text-align:center;
+    text-shadow: rgb(32, 32, 30) 4px 3px;
+    font-size: 105px;
+}
+
+#philosophy_context {
+    color:rgb(37, 37, 24);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin-left: 1100px;
+}
+
+.desc_container {
+    padding: 25px;
+}
+
+.desc_image {
+    width: 250px;
+    height: 300px;
+    background-color: rgb(63, 63, 63);
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 7px;
+}
+
+.desc_text {
+    color: rgb(32, 32, 30);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+#carsum_container {
+    padding: 25px;
+}
+
+#carsum_header {
+    color:rgb(32, 32, 30);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 125px;
+}
+
+.jobexp {
+    color: rgb(32, 32, 30);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.jobdesc {
+    margin-left: 25px;
+}
+.jobpos {
+    font-size: 50px;
+}
+
+.jobsum {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.jobnotes {
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+#skills_container {
+    padding: 25px;
+    background-color: bisque;
+}
+
+#skills_header {
+    color:rgb(32, 32, 30);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+}
+
+#skillset1 {
+    float: left;
+    color:rgb(32, 32, 30);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+#skillset2 {
+    color:rgb(32, 32, 30);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+.westmec {
+    margin: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*.westmec h1{
+    font-size: 175px;
+    margin-top: -25px;
+    margin-bottom: -50px;
+}*/
+
+
+.proj_container {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-evenly;
+    gap: 55px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.project {
+    background-color: rgb(255, 255, 255);
+    height: 375px;
+    width: 300px;
+    border: solid 1px rgb(155, 155, 155);
+    border-radius: 10px 95px 10px 10px;
+}
+
+.projName {
+    background-color: rgb(167, 167, 167);
+    margin-top: 275px;
+    padding-left: 14px;
+}
+
+#projTitle {
+    font-size: 40px;
+}
+
+#projCap {
+    font-size: 18px;
+    margin-top: -40px;
+}
